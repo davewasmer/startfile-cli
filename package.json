@@ -1,13 +1,17 @@
 {
-  "name": "start-cli",
-  "version": "1.0.0",
+  "name": "startfile-cli",
+  "version": "0.0.0-development",
   "description": "Run multiple long-running commands based on .start files",
   "bin": {
     "start": "index.js"
   },
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/davewasmer/startfile-cli"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo 'No tests'",
+    "semantic-release": "semantic-release"
   },
   "author": "Dave Wasmer",
   "license": "MIT",
