@@ -14,5 +14,8 @@
   "dependencies": {
     "concurrently": "^3.5.1",
     "find-up": "^2.1.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.6.0"
   }
 }
