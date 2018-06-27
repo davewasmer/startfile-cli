@@ -13,6 +13,7 @@ if (!startfile) {
   console.error('No .start file found');
   process.exit(1);
 }
+process.chdir(path.dirname(startfile));
 let services = readFileSync(startfile, 'utf8')
                 // [ 'foo: bar', '# some comment', 'fizz: quux' ]
                 .split('\n')
